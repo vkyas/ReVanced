@@ -187,7 +187,7 @@ main() {
   fi
 
   if [ "$root" -eq 0 ]; then
-    root_text="non-root"
+    root_text="root"
   else
     root_text="root"
     out "${RED}please be sure that your phone is connected to your pc, waiting 5 seconds${NC}"
